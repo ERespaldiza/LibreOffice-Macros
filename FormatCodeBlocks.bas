@@ -16,12 +16,14 @@ Dim g_oDialog       As Object
 ' ─────────────────────────────────────────────────────────────
 Function GetLanguages() As Variant
     GetLanguages = Array( _
+        Array("Bash",        "Bash",        "dk_Code_Bash"),        _
         Array("C++",        "C++",        "dk_Code_Cpp"),        _
         Array("CSS",        "CSS",        "dk_Code_CSS"),        _
         Array("Dart",       "Dart",       "dk_Code_Dart"),       _
         Array("HTML",       "HTML",       "dk_Code_HTML"),       _
         Array("Java",       "Java",       "dk_Code_Java"),       _
         Array("JavaScript", "JavaScript", "dk_Code_JavaScript"), _
+        Array("Plaintext",     "Plaintext",     "dk_Code_Plaintext"),     _
         Array("Python",     "Python",     "dk_Code_Python"),     _
         Array("SQL",        "SQL",        "dk_Code_SQL")         _
     )
